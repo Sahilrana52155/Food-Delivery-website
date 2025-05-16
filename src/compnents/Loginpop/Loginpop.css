@@ -1,0 +1,76 @@
+.login-pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    /* Ensure it's on top of other elements */
+}
+
+.login-pop-container {
+    width: max(23vw, 330px);
+    color: #808080;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 14px;
+    animation: FadeIn 0.5s;
+    padding: 25px 30px;
+    border-radius: 50px;
+}
+
+.login-pop-title {
+    display: flex;
+    color: black;
+    font-weight: 500;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.login-pop-inputs {
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-weight: 500;
+    gap: 10px;
+
+
+}
+.login-pop-inputs input{
+    outline: none;
+    padding: 10px;
+    border: 1px solid rgb(217, 217, 217);
+border-radius:5px;
+
+}
+.login-pop-container button{
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: tomato;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+.login-pop-condition{
+    display: flex;
+    align-items: start;
+    gap: 8px;
+    margin-top: -15px;
+}
+.login-pop-condition input{
+    margin-top: 5px;
+}
+.login-pop p span{
+    color: tomato;
+    cursor: pointer;
+    font-weight: 500;
+}
