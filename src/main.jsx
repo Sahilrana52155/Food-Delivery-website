@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import StoreContextProvider from './context/storecontext.jsx';
 
 createRoot(document.getElementById('root')).render(
-    <BrowserRouter>
+    <BrowserRouter basename="/Food-Delivery-website">
         <StoreContextProvider>
             <App />
         </StoreContextProvider>
